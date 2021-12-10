@@ -1,0 +1,5 @@
+Les differents types de bases de données NoSQL sont les bases de type:
+- clé/valeur
+- document
+- graph
+- colonnes

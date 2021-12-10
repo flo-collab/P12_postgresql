@@ -1,0 +1,14 @@
+Il existe plusieurs solutions pour planifier l'exécution de ce script :
+
+- Le laisser en execution avec un delai time.sleep()
+
+- Le laisser en execution avec un delai apscheduler.scheduler
+
+- Le planificateur de tâches Windows (utilisateur et os)
+
+- Un fichier Bash (os)
+
+- crontab (os Bien pour linux ou Docker)
+
+On choisira apscheduler :
+Ainsi la planification s'effectuera dans l'environnement python et ne dependra pas de l'os ni de l'utilisateur 

@@ -1,0 +1,8 @@
+venv/
+*.docx
+only_balcony.csv
+exploration/
+Exos/
+__pycache__/
+postgre_container/
+poc/

@@ -1,0 +1,42 @@
+
+query = """SELECT COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'promoteur'
+ORDER BY ORDINAL_POSITION"""
+
+
+
+
+
+cursor.execute(query)
+print(cursor.fetchall())
+listcol = cursor.fetchall()
+
+
+query ="""COPY promoteur
+        FROM 'C:\Users\fuetu\gitlocal\Simplon\P12_postgresql\Promoteur_imo.csv'
+        DELIMITER ';' 
+        CSV HEADER"""
+
+cursor.execute(query)
+print(cursor.fetchall())
+
+query = """select * from promoteur"""
+cursor.execute(query)
+print(cursor.fetchall())
+
+COPY promoteur
+FROM 'C:\\Users\\fuetu\\gitlocal\\Simplon\\P12_postgresql\\Promoteur_imo.csv'
+with DELIMITER ';' 
+NULL AS 'null'
+CSV HEADER;
+
+
+
+COPY promoteur
+FROM 'C:\\Users\\fuetu\\gitlocal\\Simplon\\P12_postgresql\\Promoteur_imo.csv'
+with DELIMITER ';' 
+CSV HEADER;
+
+
+SELECT * FROM promoteur;

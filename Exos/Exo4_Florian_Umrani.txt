@@ -1,0 +1,12 @@
+Les avantages du SGBD POSTGRESQL : 
+PostgreSQL présente plusieurs avantages. Il est gratuit et open source.
+PostgreSQL présente l’avantage d’être compliant ACID
+PostreSQL fonctionne mieux sur les systèmes nécessitant l’exécution de requêtes complexes.
+Ce système est hautement tolérant aux erreurs de par son logging write-ahead.
+Sa prise en charge des objets géographiques permet de l’utiliser pour
+des services basés sur la location ou des systèmes d’information géographiques.
+Son code source est disponible sous licence open source,
+ce qui permet de l’utiliser, de le modifier ou de l’implémenter librement
+en fonction des besoins de votre entreprise.
+De plus, ce système est simple d’utilisation et peut être maîtrisé rapidement.
+Enfin, les besoins en maintenance ne sont pas très élevés.

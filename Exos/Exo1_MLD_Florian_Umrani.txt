@@ -1,0 +1,11 @@
+Biens immobiliers(
+    _noBien_, titreBien, noRue, Rue, CodePostal, Ville, Superficie, Acheté
+)
+
+Clients(
+    _noClient_ , Nom, Prénom, noTelephonne
+)
+
+Visite(
+    _noBien_, _noClient_, dateVisite, Achat
+)

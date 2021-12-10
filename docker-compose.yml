@@ -1,0 +1,26 @@
+version: "3"
+services:
+
+  database:
+    image: 'postgres'
+    restart: 'always'
+    environment:
+      POSTGRES_USER: 'postgree'
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRES_DB: 'P12'
+
+    ports:
+      - '5432:5432'
+    networks:
+      - monreseau
+
+  appdb:
+    image: py_pg
+
+    ports: 
+    - '80:80'
+    networks:
+      - monreseau
+
+networks:
+  monreseau:

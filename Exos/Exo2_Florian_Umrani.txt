@@ -1,0 +1,21 @@
+def _ SGBD :
+Un système de gestion de base de données est un logiciel système servant à stocker,
+ à manipuler ou gérer, et à partager des données dans une base de données,
+en garantissant la qualité, la pérennité et la confidentialité des informations,
+tout en cachant la complexité des opérations.
+
+def _ SGBDR : 
+Une base de données relationnelle est un type de base de données
+où les données sont liées à d'autres informations au sein des bases de données.
+Les bases de données relationnelles sont composées d’un ensemble de tables 
+qui peuvent être accessibles et reconstruites de différentes manières,
+sans qu'il soit nécessaire de réarranger ces tables de quelque façon que ce soit.
+Le langage de requête structuré (SQL) est l’interface standard pour une base de données relationnelle.
+Les instructions SQL sont utilisées à la fois pour interroger de façon interactive
+les données contenues dans la base de données relationnelle et pour collecter les données
+dans le cadre de rapports.
+
+On choisit un SGBD Relationnel dans le cas d'aquisition,
+de stockage et de consultation de données tabulaires à un rithme lent/normal
+
+Sinion on choisit un SGBD non Relationel
